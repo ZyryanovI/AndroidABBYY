@@ -58,7 +58,7 @@
                 android:layout_toRightOf="@+id/KittyImage1" />
 
             <ImageView
-                android:id="@+id/flowerImage1"
+                android:id="@+id/KittyImage1"
                 android:layout_width="96dp"
                 android:layout_height="96dp"
                 android:layout_alignParentStart="true"
