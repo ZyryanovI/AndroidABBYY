@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="box_inset_layout_padding">0dp</dimen>
+    <dimen name="card_corner_radius">4dp</dimen>
+    <dimen name="medium_margin_size">16dp</dimen>
+    <dimen name="small_margin_size">8dp</dimen>
+    <dimen name="medium_text_size">18sp</dimen>
+    <dimen name="card_img_size">96dp</dimen>
+</resources>

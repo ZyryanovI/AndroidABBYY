@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/backgroundColor"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/card1"
+        app:cardCornerRadius="@dimen/card_corner_radius"
+        android:layout_marginLeft="@dimen/medium_margin_size"
+        android:layout_marginTop="@dimen/small_margin_size"
+        android:layout_marginRight="@dimen/medium_margin_size"
+        android:onClick="startSecondActivity"
+        android:clickable="true"
+        android:scaleX="1"
+        android:focusable="true"
+        >
+        <RelativeLayout android:layout_height="match_parent"
+            android:layout_width="match_parent">
+
+            <TextView
+                android:id="@+id/date1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="@dimen/medium_margin_size"
+                android:layout_marginTop="@dimen/medium_margin_size"
+                android:layout_toEndOf="@+id/KittyImage1"
+                android:text="@string/date"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textSize="@dimen/medium_text_size"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="@dimen/medium_margin_size"
+                android:layout_toRightOf="@+id/KittyImage1" />
+
+            <TextView
+                android:id="@+id/kitty_description_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/date1"
+                android:layout_alignParentBottom="false"
+                android:layout_marginStart="@dimen/medium_margin_size"
+                android:layout_marginTop="@dimen/small_margin_size"
+                android:layout_marginBottom="@dimen/medium_margin_size"
+                android:layout_toEndOf="@+id/KittyImage1"
+                android:text="@string/img_description"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginLeft="@dimen/medium_margin_size"
+                android:layout_toRightOf="@+id/KittyImage1" />
+
+            <ImageView
+                android:id="@+id/KittyImage1"
+                android:layout_width="@dimen/card_img_size"
+                android:layout_height="@dimen/card_img_size"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="@dimen/medium_margin_size"
+                android:layout_marginTop="@dimen/medium_margin_size"
+                android:layout_marginBottom="@dimen/medium_margin_size"
+                android:foregroundGravity="center_vertical"
+                app:srcCompat="@drawable/kitty_android"
+                android:contentDescription="@string/img_description"
+                android:layout_gravity="center_vertical"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="@dimen/medium_margin_size" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>

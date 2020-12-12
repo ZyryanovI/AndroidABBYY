@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AbbyyAndroidTasks</string>
+    <string name="date">12.12.2020</string>
+    <string name="img_description">Cute Kitty</string>
+    <string name="kitty_description">Very cute kitty.</string>
+    <string name="large_text">Very very very very very very very very very very
+        very very very very very very very very very very very  very very very very very very very very very
+        very very very very very very very very very very very  very very very very very very very very very
+        very very very very very very very very very very very  very very very very very very very very very
+        very very very very very very very very very very very  very very very very very very very very very
+        very very very very very very very very very very very  very very very very very very very very very
+        very very very very very very very very very very very  very very very very very very very very very
+        very very very very very very very very very very very  cute kitty.</string>
+    <string name="title_activity_second">SecondActivity</string>
+</resources>
